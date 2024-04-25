@@ -1,2 +1,2 @@
-# DiFS
-Diffusion-based Failure Sampling
+# DiFS - Diffusion-Based Failure Sampling
+
