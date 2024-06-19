@@ -24,8 +24,10 @@ def evaluate(x):
     """
     Example evaluation function.
 
-    Takes as input a batch of disturbance trajectories as a torch tensor. Simulates the system under test with each sample in the batch.
-    Returns a tuple of tensors, where the first contains robustness for each sample, and the second contains state trajectories.
+    Takes as input a batch of disturbance trajectories as a torch tensor.
+    Simulates the system under test with each sample in the batch.
+    Returns a tuple of tensors, where the first contains robustness for each
+     sample, and the second contains state trajectories.
     
     Failure corresponds to a robustness of 0.
     
@@ -35,8 +37,10 @@ def evaluate(x):
         x (torch.Tensor): The input tensor of shape (batch_size, xdim, horizon).
 
     Returns:
-        torch.Tensor: The robustness associated with each sample, shape (batch_size,).
-        torch.Tensor: The state trajectories associated with each disturbance, shape (batch_size, sdim, horizon).
+        torch.Tensor: The robustness associated with each sample,
+            shape (batch_size,).
+        torch.Tensor: The state trajectories associated with each disturbance,
+            shape (batch_size, sdim, horizon).
                       
 
     """
