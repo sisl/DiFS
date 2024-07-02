@@ -1,4 +1,5 @@
 # DiFS - Diffusion-Based Failure Sampling
+[![arXiv](https://img.shields.io/badge/arXiv-2406.14761-b31b1b.svg)](https://arxiv.org/abs/2406.14761)
 
 Sample high-dimensional, multimodal failure trajectories in cyber-physical systems by iteratively training a conditional denoising diffusion model proposal distribution.
 
